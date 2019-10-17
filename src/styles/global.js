@@ -9,7 +9,8 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-
+    background-color: #000;
+    color: #fff;
   }
 
   body{
@@ -18,13 +19,14 @@ export default createGlobalStyle`
   }
 
   body, input, button{
-    font: 14px Roboto, sans-serif;
+    font: 22px Roboto, sans-serif;
   }
 
   #root{
     max-width: 1020px;
     margin: 0 auto;
     padding: 0 20px 50px;
+    color: #fff;
   }
 
   button{
